@@ -1,0 +1,57 @@
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin-inline: auto;
+  background-color: rgb(253, 250, 245);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin-top: 2em;
+  font-size: 1.75em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+p {
+  max-width: 80ch;
+  text-align: justify;
+}
+
+li p {
+  max-width: max(75%, 80ch);
+}
+
+img {
+  max-width: 560px;
+  width: auto;
+  margin-inline: auto;
+  display: block;
+  margin-block: 3em;
+}
+
+.recipe-list {
+  margin-top: 7%;
+  margin-left: 7%;
+  font-size: 1.5em;
+}
+
+.recipe-list li {
+  margin-top: 1em;
+}
+
+.back-link {
+  margin-block: 3em;
+}
+
+.recipe-list a,
+.back-link a {
+  color: black;
+}
